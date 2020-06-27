@@ -14,8 +14,5 @@ public class CreateMessageActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_message);
     }
 
-    public void onSendMessage(View view) {
-        Intent intent = new Intent(this, ReceiveMessageActivity.class);
-        startActivity(intent);
-    }
+
 }
